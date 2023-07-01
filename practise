@@ -1,0 +1,26 @@
+/*================= Angular Document Url: https://angular.io/cli  ===============*/
+
+/*======== Install angular latest version in vs code =========*/
+npm install -g @angular/cli@latest
+
+/*======== Create angular Application =========*/
+ng new todoApp
+
+cd todoApp
+
+ng serve
+
+/*============ creating new component ============*/
+ng g c todoform 
+
+ng g c todolist
+
+/*============ creating new service ============*/
+ng g s todo (or) ng generate service todo
+
+/*========== for using bootstrap ===============*/
+npm i bootstrap
+
+// add below code in angular.json
+"styles":[ "node_modules/bootstrap/dist/css/bootstrap.css" ]
+            
